@@ -34,7 +34,7 @@ NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR GITHUB ACCOUNT
 ---
 ## Repository Setup 
 To make a repository on Github
-1. on the home page of github you will see a green button that says "new repository"
+1. on the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
 2. Then you give it a name that is the same as the one you put for cloud9. For example: if its "first-repo" on cloud9, you would put "first-repo" on github. 
 
 
