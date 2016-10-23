@@ -44,13 +44,13 @@ _To make a repository on C9_
 git push -u origin master
 10. afterwards you can go back to your shell and type git push, and it will push it to github. 
 
-_To make a repository on Github_
-1. on the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
+_To make a repository on Github_  
+1. On the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
 2. Then you give it a name that is the same as the one you put for cloud9. For example: if its "first-repo" on cloud9, you would put "first-repo" on github.
 
 ---
 ## Workflow & Commands
-Tips- 
+Tips-   
 1. if you are lost and not sure if you add/commited your work you can also use git status. If its red it means its not commited or added, and if its green that means its added or commited.  
 2. To keep track of your work you should add (which means to take a snap shot and add it to your staging area). After adding you would want to commit (take the picture) and add a message. 
 3. after commiting you would want to push it to github. Which on github it keeps track of your changes.    
