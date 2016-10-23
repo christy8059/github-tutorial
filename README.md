@@ -31,11 +31,6 @@ NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR _GITHUB ACCOUNT_
 
 ---
 ## Repository Setup 
-_To make a repository on Github_
-1. on the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
-2. Then you give it a name that is the same as the one you put for cloud9. For example: if its "first-repo" on cloud9, you would put "first-repo" on github. 
-
-
 _To make a repository on C9_ 
 1. Open your terminal and double check if your in your workspace.    
 2. Then in the terminal type mkdir(make directory) to make a new repo.   
@@ -47,7 +42,11 @@ _To make a repository on C9_
 8. After commiting you push it to github, but since youre not connected to your github you would have to connect it first. (only if you made a repor on Github already)  
 9. To connect them you would type git remote add origin git@github.com:christy8059/nameofrepo.git and then
 git push -u origin master
-10. afterwards you can go back to your shell and type git push, and it will push it to github
+10. afterwards you can go back to your shell and type git push, and it will push it to github. 
+
+_To make a repository on Github_
+1. on the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
+2. Then you give it a name that is the same as the one you put for cloud9. For example: if its "first-repo" on cloud9, you would put "first-repo" on github.
 
 ---
 ## Workflow & Commands
