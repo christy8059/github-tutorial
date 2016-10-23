@@ -19,7 +19,7 @@ If you already have a github account you may skip steps 1-3
 **_Creating an SSH key between Github and C9_**  
 NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR GITHUB ACCOUNT 
 
-1. Go to the top right, and press on your profile icon   
+1. Go to the top right, and press on your profile icon ![profile icon](profile_icon.png)   
 2. Then press setting  
 3. On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top.  
 4. Then you name it cloud9 for the title section.  
