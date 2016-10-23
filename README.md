@@ -23,9 +23,9 @@ NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR GITHUB ACCOUNT
 2. Then press setting  
 3. On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top.  
 4. Then you name it cloud9 for the title section.  
-5. Then to get the SSH Key you would have to go back to your cloud9 tab (the page where you choose which workspace to open). 
+5. Then to get the SSH Key you would have to go back to your cloud9 tab (the page where you choose which workspace to open).  ![](C9_workspace_page.png)  
 6. On the top right, press the gear icon. After you press that you should see "SSH Key" on the left.  
-7. Copy everything that is in that gray box, and then go back to github and paste everything on the section that says Key. ![](SSH_key.png)   
+7. Copy everything that is in that gray box, and then go back to github and paste everything on the section that says Key. ![](SSH_key.png)     
 8. Then press add SSH Key.  
 9. To check if it works you can open to your workspace and in the terminal type "ssh -T git@github.com". If it works "Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._" should appear as a repsonse.  
 
