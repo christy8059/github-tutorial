@@ -13,13 +13,13 @@ _Git_ is a version control that keeps "snapshots" of your code, while _Github_ s
 **_Making a github account_**  
 If you already have a github account you may skip steps 1-3  
 1. To make an account you need to go to [github.com](https://github.com/)  
-2. Then you press on the green button that says "sign up" 
+2. Then you press on the green button that says "sign up"   ![](sign_up_button.png)  
 3. And then you get to a page where you type into your user name, email and password  
 
 **_Creating an SSH key between Github and C9_**  
 NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR GITHUB ACCOUNT 
 
-1. Go to the top right, and press on your profile icon ![](profile_icon.png)   
+1. Go to the top right, and press on your profile icon   ![](profile_icon.png)   
 2. Then press setting  
 3. On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top.  
 4. Then you name it cloud9 for the title section.  
