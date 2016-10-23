@@ -13,7 +13,7 @@ _Git_ is a version control that keeps "snapshots" of your code, while _Github_ s
 **_Making a github account_**  
 If you already have a github account you may skip steps 1-3  
 1. To make an account you need to go to [github.com](https://github.com/)  
-2. Then you press on the green button that says "sign up"   ![](sign_up_button.png)  
+2. Then you press on the green button that says "sign up". ![](sign_up_button.png)  
 3. And then you get to a page where you type into your user name, email and password  
 
 **_Creating an SSH key between Github and C9_**  
