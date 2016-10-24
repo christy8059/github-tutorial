@@ -5,7 +5,7 @@ _by Christy Li_
 ---
 ## Git vs. GitHub
 _Git_ is a version control that keeps "snapshots" of your code, while _Github_ stores your code in the cloud. Since the code is stored on the cloud we are able to visually track changes. Also we're able to collaborate on the same project.   
-* The difference is that _Git_ does not require github, but _github_ requies git. 
+* The difference is that _Git_ does not require github, but _github_ requires git. 
 
 ---
 
@@ -33,16 +33,16 @@ NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR _GITHUB ACCOUNT_
 ## Repository Setup 
 _To make a repository on C9_   
 1. Open your terminal and double check if your in your workspace.    
-2. Then in the terminal type mkdir(make directory) to make a new repo.   
-3. Then cd (change directory) into the folder that.   
-4. After you make the folder you can create a file using touch.txt.  
-5. To open the file you can type c9 with the file name and you can type in the file.   
-6. after you make your changes you would want to add to your workspace by typing "add .".   
-7. after you add to the staging are you would want to commit it. To commit it you would type commit -m "message".(The -m just means message)  
-8. After commiting you push it to github, but since youre not connected to your github you would have to connect it first. (only if you made a repor on Github already)    
-9. To connect them you would type git remote add origin git@github.com:christy8059/nameofrepo.git and then
-git push -u origin master  
-10. afterwards you can go back to your shell and type git push, and it will push it to github. 
+2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
+3. Then `cd` (change directory) into the folder that.   
+4. After you make the folder you can create a file using `touch.txt`.  
+5. To open the file you can type `c9` with the file name and you can type in the file.   
+6. After you make your changes you would want to add to your workspace by typing `add .`.   
+7. After you add to the staging are you would want to commit it. To commit it you would type `commit -m "message"`. (The -m just means message)  
+8. After commiting you push it to github using `git push`, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)  
+9. To connect them you would type `git remote add origin git@github.com:christy8059/nameofrepo.git` and then
+`git push -u origin master`    
+10. Afterwards you can go back to your shell and type `git push`, and it will push it to github. 
 
 _To make a repository on Github_  
 1. On the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
