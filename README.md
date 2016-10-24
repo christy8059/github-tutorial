@@ -37,7 +37,7 @@ _To make a repository on C9_
 3. Then cd (change directory) into the folder that.   
 4. After you make the folder you can create a file using touch.txt.  
 5. To open the file you can type c9 with the file name and you can type in the file.   
-6. after you make your changes you would want to add to your workspace by typing "add .". 
+6. after you make your changes you would want to add to your workspace by typing "add .".   
 7. after you add to the staging are you would want to commit it. To commit it you would type commit -m "message".(The -m just means message)  
 8. After commiting you push it to github, but since youre not connected to your github you would have to connect it first. (only if you made a repor on Github already)    
 9. To connect them you would type git remote add origin git@github.com:christy8059/nameofrepo.git and then
