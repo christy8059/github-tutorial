@@ -40,17 +40,17 @@ _To make a repository on C9_
 2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
 3. Then `cd` (change directory) into the folder that.   
 4. After you make the folder you can create a file using `touch.txt`.  
-5. To open the file you can type `c9` with the file name and you can type in the file.   
-6. After you make your changes you would want to add to your workspace by typing `add .`.   
-7. After you add to the staging are you would want to commit it. To commit it you would type `commit -m "message"`. (The -m just means message)  
+5. To open the file you can type `c9 file name` and you can start typing in the file.   
+6. After you make your changes you'll need to add to your work to the staging area by typing `add .`.   
+7. After you add to the staging are you would want to commit your work. (Meaning to actually take the snapshot of your staging area) You would type `commit -m "message"`. The -m just means message.
 8. After commiting you push it to github using `git push`, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)  
-9. To connect them you would type `git remote add origin git@github.com:christy8059/nameofrepo.git` and then
-`git push -u origin master`    
+9. To connect them you would type `git remote add origin git@github.com:username/nameofrepo.git` and then
+`git push -u origin master`.     
 10. Afterwards you can go back to your shell and type `git push`, and it will push it to github. 
 
 _To make a repository on Github_  
 1. On the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
-2. Then you give it a name that is the same as the one you put for cloud9. For example: if its "first-repo" on cloud9, you would put "first-repo" on github.
+2. Then you type the name of the repo (exactly how it is on C9) For example: if its "first-repo" on cloud9, you would put "first-repo" on github.
 
 ---
 ## Workflow & Commands
