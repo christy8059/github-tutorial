@@ -35,7 +35,7 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 
 ---
 ## Repository Setup 
-_To make a repository on C9_   
+**_To make a repository on C9_**   
 1. Open your terminal and double check if your in your workspace. ![](workspace.png)     
 2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
 3. Then `cd` (change directory) into the folder that.
@@ -48,9 +48,9 @@ _To make a repository on C9_
 9. After commiting you push it to github using `git push`, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)  
 10. To connect them you would type `git remote add origin git@github.com:username/nameofrepo.git` and then
 `git push -u origin master`.     
-10. Afterwards you can go back to your shell and type `git push`, and it will push it to github. 
+11. Afterwards you can go back to your shell and type `git push`, and it will push it to github. 
 
-_To make a repository on Github_  
+**_To make a repository on Github_**  
 1. On the home page of github you will see a green button that says "new repository"  ![](new_repository.png)  
 2. Then you type the name of the repo (exactly how it is on C9) For example: if its "first-repo" on cloud9, you would put "first-repo" on github.
 
@@ -58,8 +58,8 @@ _To make a repository on Github_
 ## Workflow & Commands
 Tips-   
 1. If you are lost and not sure if you add and/or commited your work you can use `git status`.   
-    *If its red it means its not commited or added
-    *If its green that means it can mean that its added but not necessary commited. Usually if you read back what they respond it will say "changes to be commited". This just means that you added it to your staging area and didnt commit it yet.  
+    * If its red it means its not commited or added
+    * If its green that means it can mean that its added but not necessary commited. Usually if you read back what they respond it will say "changes to be commited". This just means that you added it to your staging area and didnt commit it yet.  
 2. To keep track of your work you should add and commit as often as possible
     * Adding means to take a snap shot and add it to your staging area. 
     * committing means to actually "take the picture" and add a brief message for other so they know what you did. 
