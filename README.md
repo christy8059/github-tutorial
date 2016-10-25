@@ -30,7 +30,7 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 6. On the top right, press the gear icon. After you have pressed the gear icon you should see "SSH Key" on the left.  
 7. Copy everything that is in that gray box, and then go back to github and paste everything on the section that says Key. ![](ssh_key_on_c9.png)    
 8. Then press add SSH Key.  
-9. To check if it works you can open to your workspace and in the terminal type "ssh -T git@github.com". If it works "Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._" should appear as a repsonse.  
+9. To check if it works you can open to your workspace and in the terminal type "ssh -T git@github.com". It should respond back saying ![](testing.png)  
 
 ---
 ## Repository Setup 
