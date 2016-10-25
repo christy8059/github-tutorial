@@ -86,5 +86,5 @@ original repo: ![](before.png)      after you forked it: ![](after.png)
 8. You then simple write a brief message about the changes.
 9. The user of the regular repository will get a request about you pull. They're able to use `git pull` to see/ edit your changes on their local.  
 
-Mr. Mueller Diagram explaing forking, cloning and pulling.  
+Mr. Mueller's  Diagram explaing forking, cloning and pulling.  
 ![](f&c_diagram.png )  
