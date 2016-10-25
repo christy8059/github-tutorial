@@ -57,8 +57,13 @@ _To make a repository on Github_
 ---
 ## Workflow & Commands
 Tips-   
-1. if you are lost and not sure if you add/commited your work you can also use `git status`. If its red it means its not commited or added, and if its green that means its added or commited.  
-2. To keep track of your work you should add (which means to take a snap shot and add it to your staging area). After adding you would want to commit (take the picture) and add a message. 
-3. After commiting you would want to push it to github. Which on github it keeps track of your changes.    
+1. If you are lost and not sure if you add and/or commited your work you can use `git status`.   
+    *If its red it means its not commited or added
+    *If its green that means it can mean that its added but not necessary commited. Usually if you read back what they respond it will say "changes to be commited". This just means that you added it to your staging area and didnt commit it yet.  
+2. To keep track of your work you should add and commit as often as possible
+    * Adding means to take a snap shot and add it to your staging area. 
+    * committing means to actually "take the picture" and add a brief message for other so they know what you did. 
+3. After commiting you would want to push it to github.
+    * pushing just means to send it to github, so github can keep track of your changes.     
 
-_These steps should be done as frequently as possible_ 
+_**Remeber** : These steps should be done as frequently as possible_ 
