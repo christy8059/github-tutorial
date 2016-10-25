@@ -74,4 +74,6 @@ Sometimes we want to give other people our opinion or make changes and edits, bu
 
 _Forking and cloning_ just means making a copy of their repository from the cloud and making it our own. How do we do this ?  
 
-1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)    
+1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)  
+2. After you press fork you should see  
+![](before.png)   ![](after.png)
