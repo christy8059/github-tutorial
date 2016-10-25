@@ -18,7 +18,7 @@ If you already have a github account you may skip steps 1-3
 
 
 **_Creating an SSH key between Github and C9_**  
-_NOTE_ : These steps are only done ONCE after you make your _Github account_. 
+_NOTE_ : These steps are only done ONCE after you make your _Github_ account. 
 
 1. Go to the top right, and press on your profile icon   ![](profile_icon.png)   
 2. Then press setting  
