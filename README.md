@@ -66,4 +66,12 @@ Tips-
 3. After commiting you would want to push it to github.
     * pushing just means to send it to github, so github can keep track of your changes.     
 
-_**Remeber** : These steps should be done as frequently as possible_ 
+_**Remeber** : These steps should be done as frequently as possible_  
+
+---   
+## Collaboration  
+Sometimes we want to give other people our opinion or make changes and edits, but how can we do that ? Yes..... we can _Fork_ their repository.  
+
+_Forking and cloning_ just means making a copy of their repository from the cloud and making it our own. How do we do this ?  
+
+1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)    
