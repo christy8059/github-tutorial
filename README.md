@@ -77,3 +77,4 @@ _Forking and cloning_ just means making a copy of their repository from the clou
 1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)  
 2. After you press fork you should see  
 original repo: ![](before.png)      after you forked it: ![](after.png)  
+3. Next you clone or download it you your local repo. To do that you simply press the "clone or download" button. Then theres this clipboard on the left of it. You press it and it will automatically copy it for you. ![](clone.png)   
