@@ -38,13 +38,15 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 _To make a repository on C9_   
 1. Open your terminal and double check if your in your workspace. ![](workspace.png)     
 2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
-3. Then `cd` (change directory) into the folder that.   
-4. After you make the folder you can create a file using `touch.txt`.  
-5. To open the file you can type `c9 file name` and you can start typing in the file.   
-6. After you make your changes you'll need to add to your work to the staging area by typing `add .`.   
-7. After you add to the staging are you would want to commit your work. (Meaning to actually take the snapshot of your staging area) You would type `commit -m "message"`. The -m just means message.
-8. After commiting you push it to github using `git push`, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)  
-9. To connect them you would type `git remote add origin git@github.com:username/nameofrepo.git` and then
+3. Then `cd` (change directory) into the folder that.
+4. You would have to initalize the repository. Therefore you type `git init`.  
+    * Lets say you initalized it in the wrong place. To undo that you can type `rm -rf .git`.  
+5. After you make the folder you can create a file using `touch.txt`.  
+6. To open the file you can type `c9 file name` and you can start typing in the file.   
+7. After you make your changes you'll need to add to your work to the staging area by typing `add .`.   
+8. After you add to the staging are you would want to commit your work. (Meaning to actually take the snapshot of your staging area) You would type `commit -m "message"`. The -m just means message.
+9. After commiting you push it to github using `git push`, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)  
+10. To connect them you would type `git remote add origin git@github.com:username/nameofrepo.git` and then
 `git push -u origin master`.     
 10. Afterwards you can go back to your shell and type `git push`, and it will push it to github. 
 
