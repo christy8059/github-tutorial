@@ -82,4 +82,4 @@ original repo: ![](before.png)      after you forked it: ![](after.png)
 5. And to make changes or edit you'll need to `cd` into the folder/repo (change directory), and then `c9` with file name.
 6. Let's say you've made changes to a specific file, you'll need to add, commit and push. Remember this is going to be pushed to your copy of their repo. It will not automatically change on the orginal repository. 
 7. After you finish fixing any changes you may send a pull request.  
-![](new_pull_request.png) then: ![](create_pull_request.png)  
+![](new_pull_request.png) then:![](create_pull_request.png)  
