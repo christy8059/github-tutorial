@@ -36,7 +36,7 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 ---
 ## Repository Setup 
 _To make a repository on C9_   
-1. Open your terminal and double check if your in your workspace.    
+1. Open your terminal and double check if your in your workspace. ![](workspace.png)     
 2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
 3. Then `cd` (change directory) into the folder that.   
 4. After you make the folder you can create a file using `touch.txt`.  
