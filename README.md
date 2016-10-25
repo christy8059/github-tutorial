@@ -77,4 +77,9 @@ _Forking and cloning_ just means making a copy of their repository from the clou
 1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)  
 2. After you press fork you should see  
 original repo: ![](before.png)      after you forked it: ![](after.png)  
-3. Next you clone or download it you your local repo. To do that you simply press the "clone or download" button. Then theres this clipboard on the left of it. You press it and it will automatically copy it for you. ![](clone.png)   
+3. Next you clone or download it you your local repo. To do that you simply press the "clone or download" button. Then theres this clipboard on the left of it. You press it and it will automatically copy it for you. ![](clone.png) 
+4. Then go to you c9 and type `git clone`with the link and then press enter. You will see the file appear on the sidebar. 
+5. And to make changes or edit you'll need to `cd` into the folder/repo (change directory), and then `c9` with file name.
+6. Let's say you've made changes to a specific file, you'll need to add, commit and push. Remember this is going to be pushed to your copy of their repo. It will not automatically change on the orginal repository. 
+7. After you finish fixing any changes you may send a pull request.  
+![](new_pull request.png)      ![](create_pull_request.png)  
