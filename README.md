@@ -16,8 +16,9 @@ If you already have a github account you may skip steps 1-3
 2. Then you press on the green button that says "sign up". ![](sign_up_button.png)  
 3. Then it redirects you to a page where you can type in a user name, email and password.   
 
+
 **_Creating an SSH key between Github and C9_**  
-NOTE: THESE STEPS ARE ONLY DONE ONCE AFTER YOU MAKE YOUR _GITHUB ACCOUNT_ 
+NOTE: These steps are only done ONCE after you make your _Github account_. 
 
 1. Go to the top right, and press on your profile icon   ![](profile_icon.png)   
 2. Then press setting  
