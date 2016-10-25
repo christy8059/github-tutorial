@@ -23,7 +23,7 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 1. On Github go to the top right, and press on your profile icon   ![](profile_icon.png)  
 2. Then press "settings".  
 ![](press_setting.png)      
-3. On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top. And then press "new SSH Key". 
+3. On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top. And then press "new SSH Key".  
 ![](SSH_and_GPG_keys.png)  
 ![](new_SSH.png)     
 4. Then you name it cloud9 for the title section.  
