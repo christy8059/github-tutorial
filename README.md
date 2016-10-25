@@ -76,4 +76,4 @@ _Forking and cloning_ just means making a copy of their repository from the clou
 
 1. First, we will have to _fork_ their repository on Github. On the top right theres a button that says _fork_. ![](forking.png)  
 2. After you press fork you should see  
-![](before.png)          ![](after.png)
+original repo: ![](before.png)      after you forked it: ![](after.png)  
