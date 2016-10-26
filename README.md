@@ -11,10 +11,11 @@ _Git_ is a version control that keeps "snapshots" of your code, while _Github_ s
 
 ## Initial Setup  
 **_Making a Github account_**   
-If you already have a github account you may skip steps 1-3    
+If you already have a github account you may skip steps 1-4    
 1. To make an account you need to go to [github.com](https://github.com/)  
 2. Then you press on the green button that says "sign up". ![](sign_up_button.png)  
-3. Then it redirects you to a page where you can type in a user name, email and password.   
+3. Then it redirects you to a page where you can type in a user name, email and password.  
+4. Also you would need to varify. So you'll need to log into your email to varify.   
 
 
 **_Creating an SSH key between Github and C9_**  
@@ -39,7 +40,7 @@ _NOTE_ : These steps are only done ONCE after you make your _Github_ account.
 1. Open your terminal and double check if your in your workspace. ![](workspace.png)     
 2. Then in the terminal type `mkdir` (make directory) to make a new repo.   
 3. Then `cd` (change directory) into the folder that.
-4. You would have to initalize the repository. Therefore you type `git init`.  
+4. You would have to initalize the repository. Therefore you type `git init`. Note: after you do 'git init' on your prompt shell you should see that it says "master". ![](master.png)   
     * Lets say you initalized it in the wrong place. To undo that you can type `rm -rf .git`.  
 5. After you make the folder you can create a file using `touch.txt`.  
 6. To open the file you can type `c9 file name` and you can start typing in the file.   
