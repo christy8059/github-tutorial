@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>GitHub Tutorial by christy8059</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>GitHub Tutorial</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/christy8059/github-tutorial/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/christy8059/github-tutorial/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/christy8059/github-tutorial" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Christy Li</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><em>Git</em> is a version control that keeps "snapshots" of your code, while <em>Github</em> stores your code in the cloud. Since the code is stored on the cloud we are able to visually track changes. Also we're able to collaborate on the same project.   </p>
+
+<ul>
+<li>The difference is that <em>Git</em> does not require github, but <em>github</em> requires git.<br>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><strong><em>Making a Github account</em></strong><br>
+If you already have a github account you may skip steps 1-4<br>
+1. To make an account you need to go to <a href="https://github.com/">github.com</a><br>
+2. Then you press on the green button that says "sign up". <img src="sign_up_button.png" alt=""><br>
+3. Then it redirects you to a page where you can type in a user name, email and password.<br>
+4. Also you would need to varify. So you'll need to log into your email to varify.   </p>
+
+<p><strong><em>Creating an SSH key between Github and C9</em></strong><br>
+<em>NOTE</em> : These steps are only done ONCE after you make your <em>Github</em> account. </p>
+
+<ol>
+<li>On Github go to the top right, and press on your profile icon   <img src="profile_icon.png" alt=""><br>
+</li>
+<li>Then press "settings".<br>
+<img src="press_setting.png" alt=""><br>
+</li>
+<li>On the left there are different options. Press "SSH and GPG keys" which is the sixth one counting from the top. And then press "new SSH Key".<br>
+<img src="ssh_key.png" alt=""><br>
+</li>
+<li>Then you name it cloud9 for the title section.<br>
+</li>
+<li>Then to get the SSH Key you would have to go back to your cloud9 tab (the page where you choose which workspace to open).  <img src="C9_workspace_page.png" alt=""><br>
+</li>
+<li>On the top right, press the gear icon. After you have pressed the gear icon you should see "SSH Key" on the left.<br>
+</li>
+<li>Copy everything that is in that gray box, and then go back to github and paste everything on the section that says Key. <img src="ssh_key_on_c9.png" alt=""><br>
+</li>
+<li>Then press add SSH Key.<br>
+</li>
+<li>To check if it works you can open to your workspace and in the terminal type "ssh -T <a href="mailto:git@github.com">git@github.com</a>". It should respond back saying "hi ! You successfully...."<br>
+<img src="testing.png" alt=""><br>
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><strong><em>To make a repository on C9</em></strong><br>
+1. Open your terminal and double check if your in your workspace. <img src="workspace.png" alt=""><br>
+2. Then in the terminal type <code>mkdir</code> (make directory) to make a new repo.<br>
+3. Then <code>cd</code> (change directory) into the folder that.
+4. You would have to initalize the repository. Therefore you type <code>git init</code>. Note: after you do 'git init' on your prompt shell you should see that it says "master". <img src="master.png" alt=""><br>
+    * Lets say you initalized it in the wrong place. To undo that you can type <code>rm -rf .git</code>.<br>
+5. After you make the folder you can create a file using <code>touch.txt</code>.<br>
+6. To open the file you can type <code>c9 file name</code> and you can start typing in the file.<br>
+7. After you make your changes you'll need to add to your work to the staging area by typing <code>add .</code>.<br>
+8. After you add to the staging are you would want to commit your work. (Meaning to actually take the snapshot of your staging area) You would type <code>commit -m "message"</code>. The -m just means message.
+9. After commiting you push it to github using <code>git push</code>, but since you're not connected to your github you would have to connect it first. (only if you made a repo on Github already)<br>
+10. To connect them you would type <code>git remote add origin git@github.com:username/nameofrepo.git</code> and then
+<code>git push -u origin master</code>.<br>
+11. Afterwards you can go back to your shell and type <code>git push</code>, and it will push it to github. </p>
+
+<p><strong><em>To make a repository on Github</em></strong><br>
+1. On the home page of github you will see a green button that says "new repository"  <img src="new_repository.png" alt=""><br>
+2. Then you type the name of the repo (exactly how it is on C9) For example: if its "first-repo" on cloud9, you would put "first-repo" on github.</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>Tips-<br>
+1. If you are lost and not sure if you add and/or commited your work you can use <code>git status</code>.<br>
+    * If its red it means its not commited or added
+    * If its green that means it can mean that its added but not necessary commited. Usually if you read back what they respond it will say "changes to be commited". This just means that you added it to your staging area and didnt commit it yet.<br>
+2. To keep track of your work you should add and commit as often as possible
+    * Adding means to take a snap shot and add it to your staging area. 
+    * committing means to actually "take the picture" and add a brief message for other so they know what you did. 
+3. After commiting you would want to push it to github.
+    * pushing just means to send it to github, so github can keep track of your changes.     </p>
+
+<p><em><strong>Remeber</strong> : These steps should be done as frequently as possible</em>  </p>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p>Sometimes we want to give other people our opinion or make changes and edits, but how can we do that ? Yes..... we can <em>Fork</em> their repository.  </p>
+
+<p><em>Forking and cloning</em> just means making a copy of their repository from the cloud and making it our own. How do we do this ?  </p>
+
+<ol>
+<li>First, we will have to <em>fork</em> their repository on Github. On the top right theres a button that says <em>fork</em>. <img src="forking.png" alt=""><br>
+</li>
+<li>After you press fork you should see<br>
+original repo: <img src="before.png" alt="">      after you forked it: <img src="after.png" alt=""><br>
+</li>
+<li>Next you clone or download it you your local repo. To do that you simply press the "clone or download" button. Then theres this clipboard on the left of it. You press it and it will automatically copy it for you. <img src="clone.png" alt=""> </li>
+<li>Then go to you c9 and type <code>git clone</code>with the link and then press enter. You will see the file appear on the sidebar. </li>
+<li>And to make changes or edit you'll need to <code>cd</code> into the folder/repo (change directory), and then <code>c9</code> with file name.</li>
+<li>Let's say you've made changes to a specific file, you'll need to add, commit and push. Remember this is going to be pushed to your copy of their repo. It will not automatically change on the orginal repository. </li>
+<li>After you finish fixing any changes you may send a pull request.<br>
+<img src="new_pull_request.png" alt=""> then: <img src="create_pull.png" alt="">
+</li>
+<li>You then simple write a brief message about the changes.</li>
+<li>The user of the regular repository will get a request about you pull. They're able to use <code>git pull</code> to see/ edit your changes on their local.<br>
+</li>
+</ol>
+
+<p>Mr. Mueller's  Diagram explaning forking, cloning and pulling.<br>
+<img src="f&amp;c_diagram.png" alt="">  </p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
