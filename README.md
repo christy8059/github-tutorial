@@ -97,7 +97,9 @@ original repo: ![](before.png)      after you forked it: ![](after.png)
 3. Sometimes we check on github and our recent commits aren't there ? Why ? Its probably, because you didn't save or turned on auto-save. So go and double check your work is saved first.  
 4. Why cant we commit ? Well did you do 'commit add' yet?  
 5. Lets say you were commuting and you you thought the code to commit is 'git commit'. You're close, but you forgot to type your commit message. And its brought you to a page that looks like this ![](message_error.png)     
-    * To escape you can press control x   
+    * To escape you can press control x 
+
+---
 
 Mr. Mueller's  Diagram explaning forking, cloning and pulling.  
 ![](f&c_diagram.png )  
