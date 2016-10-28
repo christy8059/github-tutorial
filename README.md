@@ -87,5 +87,18 @@ original repo: ![](before.png)      after you forked it: ![](after.png)
 8. You then simple write a brief message about the changes.
 9. The user of the regular repository will get a request about you pull. They're able to use `git pull` to see/ edit your changes on their local.  
 
+--- 
+
+_Problem Solving_  
+
+1. Did you get stuck and all you saw was "<" ? Well I can help you with that. To go back you can simply type 'control C' or control D.  ![](message_error.png)
+* The reason why you had that problem is, because when you were typing the message for the commit you forgot to close it with a quotation mark.  
+2. "Oops !!! I accidentally initialized my workspace". Very often people forget to 'cd' (change directory) into their directory before they initializing it. So to fix it you can type in 'rm -rf'.   
+3. Sometimes we check on github and our recent commits aren't there ? Why ? Its probably, because you didn't save or turned on auto-save. So go and double check your work is saved first.   
+4. Why cant we commit ? Well did you do 'commit add' yet?  
+5. Lets say you were commuting and you you thought the code to commit is 'git commit'. You're close, but you forgot to type your commit message. And its brought you to a page that looks like this ![](git_commit_error.png)   
+* To escape you can press control x  
+
+
 Mr. Mueller's  Diagram explaning forking, cloning and pulling.  
 ![](f&c_diagram.png )  
