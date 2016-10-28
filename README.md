@@ -89,7 +89,7 @@ original repo: ![](before.png)      after you forked it: ![](after.png)
 
 ---
 
-_Error Handling_  
+## Error Handling    
 1. Did you get stuck and all you saw was "<" ? Well I can help you with that. To go back you can simply type 'control C' or control D.  ![](git_commit_error.png)   
     * The reason why you had that problem is, because when you were typing the message for the commit you forgot to close it with a quotation mark.  
 2. "Oops !!! I accidentally initialized my workspace". Very often people forget to 'cd' (change directory) into their directory before they initializing it. So to fix it you can type in 'rm -rf .git'. rm -rf (remove with force) ![](git_init_error.png)  
